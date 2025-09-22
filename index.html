@@ -1,0 +1,1475 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>نزية العطار - قائمة الأسعار</title>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="logo">
+                <img src="logo.png" alt="Logo" class="logo-img">
+            </div>
+            <h1 class="brand-name">نــزية العـطـــار</h1>
+            <p class="tagline">جودة عالية وأسعار منافسة منذ 1929</p>
+        </header>
+        
+        <div class="nav-buttons">
+            <button class="nav-btn" onclick="scrollToSection('about')">عن البراند</button>
+            <button class="nav-btn" onclick="scrollToSection('contact')">اتصل بنا</button>
+            <button class="nav-btn" onclick="showAllProducts()">عرض جميع المنتجات</button>
+        </div>
+        
+        <section class="category">
+            <h2 class="category-title">🌰 المكسرات</h2>
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-name">كاجو كبير محمص (مملح)</div>
+                    <div class="product-price">650ج</div>
+                </div>
+                <div class="product-card">
+                    <div class="product-name">كاجو كبير ني</div>
+                    <div class="product-price">620ج</div>
+                </div>
+                <div class="product-card">
+                    <div class="product-name">كاجو وسط محمص (مملح)</div>
+                    <div class="product-price">590ج</div>
+                </div>
+                <div class="product-card">
+                    <div class="product-name">كاجو وسط ني</div>
+                    <div class="product-price">570ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">كاجو صغير محمص (مملح)</div>
+                    <div class="product-price">550ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">كاجو صغير ني</div>
+                    <div class="product-price">540ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">فسدق حصي محمص امريكي (مملح)</div>
+                    <div class="product-price">700ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">فسدق حصي امريكي كبير ني</div>
+                    <div class="product-price">680ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">فسدق قلب حلبي</div>
+                    <div class="product-price">1300ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">فسدق قلب ايراني</div>
+                    <div class="product-price">1200ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">لوز حصي</div>
+                    <div class="product-price">270ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">لوز محمص امريكي</div>
+                    <div class="product-price">520ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">لوز قلب امريكي ني</div>
+                    <div class="product-price">480ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">لوز قلب اسباني ني</div>
+                    <div class="product-price">500ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">لوز شرائح</div>
+                    <div class="product-price">620ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">بندق محمص</div>
+                    <div class="product-price">930ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">بندق قلب ني</div>
+                    <div class="product-price">830ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">بندق بقشره</div>
+                    <div class="product-price">275ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">عين جمل (مقشر )انصاف</div>
+                    <div class="product-price">520ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">عين جمل حصي</div>
+                    <div class="product-price">270ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">مكاديميا</div>
+                    <div class="product-price">950ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">بيكان ني</div>
+                    <div class="product-price">950ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">كيلو مكسرات مشكل</div>
+                    <div class="product-price">650ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">فول سوداني نزيه حلويات ( درجة اولي )</div>
+                    <div class="product-price">85ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">فول سوداني جني حلويات</div>
+                    <div class="product-price">75ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">فول سوداني الندا حلويات</div>
+                    <div class="product-price">70ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">جوز هند خشن</div>
+                    <div class="product-price">240ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">جوز هند نااعم</div>
+                    <div class="product-price">220ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">جوز هند دفر</div>
+                    <div class="product-price">350ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">سمسم هندي ني كيلو</div>
+                    <div class="product-price">110ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">سمسم محمص كيلو</div>
+                    <div class="product-price">110ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">زبيب مميز فاتح الهدي</div>
+                    <div class="product-price">190ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">كركديه نيجيري الكيلو</div>
+                    <div class="product-price">130ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">دوم مجروش الكيلو</div>
+                    <div class="product-price">90ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">دوم مجروش الكيلو</div>
+                    <div class="product-price">120ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">خروب ناعم الكيلو</div>
+                    <div class="product-price">70ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">خروب مجروش الكيلو</div>
+                    <div class="product-price">70ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">خروب قرون الكيلو</div>
+                    <div class="product-price">200ج</div>
+                </div>
+            </div>
+            <button class="show-more-btn" onclick="toggleProducts(this)">عرض المزيد</button>
+        </section>
+        
+        <section class="category">
+            <h2 class="category-title">🍹 العصائر</h2>
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-name">سوبيا الهدى خام</div>
+                    <div class="product-price">200 ج</div>
+                </div>
+                <div class="product-card">
+                    <div class="product-name">عصير سريع التحضير {اطعمة}</div>
+                    <div class="product-price">110 ج</div>
+                </div>
+            </div>
+            </section>
+        
+        <section class="category">
+            <h2 class="category-title">🍰 خامات الحلويات</h2>
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-name">شيكولاته فول كاترو جركن 4ك</div>
+                    <div class="product-price">300ج</div>
+                </div>
+                <div class="product-card">
+                    <div class="product-name">شيكولاتة فول جركن 4ك</div>
+                    <div class="product-price">295ج</div>
+                </div>
+                <div class="product-card">
+                    <div class="product-name">كونو شيكولاتة جركن كيلو</div>
+                    <div class="product-price">100ج</div>
+                </div>
+                <div class="product-card">
+                    <div class="product-name">شيكوبون جركن 5ك</div>
+                    <div class="product-price">325ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">شيكولاته ابيض جني قالب</div>
+                    <div class="product-price">240ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">شيكولاتة بني جني قالب</div>
+                    <div class="product-price">235ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">شيكولاتة بني كوالتي قالب</div>
+                    <div class="product-price">275ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">شيكولاتة بني كوالتي شامبيون قالب</div>
+                    <div class="product-price">235ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">شيكولاتة ابيض كوالتي قالب</div>
+                    <div class="product-price">245ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">شيكولاتة دارك كوالتي قالب</div>
+                    <div class="product-price">345ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">شيكولاتة باللبن كوالتي قالب</div>
+                    <div class="product-price">350ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">شيكولاتة ابيض سما قالب</div>
+                    <div class="product-price">365ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">شيكولاتة دارك سما قالب</div>
+                    <div class="product-price">355ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">شيكولاتة بالبن سما قالب</div>
+                    <div class="product-price">357ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">شيكولاتة بني سما قالب</div>
+                    <div class="product-price">350ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">شيكولاتة سما كراميل 1/2 طبيعي بلبن قالب</div>
+                    <div class="product-price">560ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">شيكولاتة بني فينا قالب</div>
+                    <div class="product-price">280ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">شيكولاتة ابيض فينا قالب</div>
+                    <div class="product-price">290ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">شيكولاتة دارك جولدن باك قالب</div>
+                    <div class="product-price">440ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">شيكولاتةابيض جولدن باك قالب</div>
+                    <div class="product-price">450ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">شيكولاتة بني جولدن باك قالب</div>
+                    <div class="product-price">395ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">شيكولاته بالحليب جولدن باك قالب</div>
+                    <div class="product-price">445ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">ويفر شيكولاتة علبة ٢.٥ ك جامي</div>
+                    <div class="product-price">370ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">بسكويت ويفر معبا علبة</div>
+                    <div class="product-price">22ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">ويفر جامي الوان سايب 2 ك علبة</div>
+                    <div class="product-price">210ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">كاندي اسبانى ربع كيلو مشكل</div>
+                    <div class="product-price">55ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">كريمه متحدة</div>
+                    <div class="product-price">350ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">كريمة الهدي خام</div>
+                    <div class="product-price">100ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">اسبونج ابيض متحده</div>
+                    <div class="product-price">85ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">اسبونج بني متحده</div>
+                    <div class="product-price">95ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">كريمه لباني بودر</div>
+                    <div class="product-price">300ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">كريمة هوبلا حلويات سائلة 1 لتر</div>
+                    <div class="product-price">160ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">اللوتس هابي ميكس المطحون العلبة</div>
+                    <div class="product-price">140ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">فانيليا كامينا سائله</div>
+                    <div class="product-price">540ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">فانيليا صيني سايب كيلو</div>
+                    <div class="product-price">850ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">فانيليا صيني علبة 500 جرام</div>
+                    <div class="product-price">380ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">بودر كوكس علبة</div>
+                    <div class="product-price">130ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">بيكنج بودر برطمان</div>
+                    <div class="product-price">60ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">شوكليت شيبس بني</div>
+                    <div class="product-price">145ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">شوكليت شيببس ابيض</div>
+                    <div class="product-price">145ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">فواكه مجففة جولدن باك</div>
+                    <div class="product-price">100ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">عسل جلوكوز علبة 700 جرام</div>
+                    <div class="product-price">23ج</div>
+                </div>
+            </div>
+            <button class="show-more-btn" onclick="toggleProducts(this)">عرض المزيد</button>
+        </section>
+        
+        <section class="category">
+            <h2 class="category-title">🍇🍓 الحشوات</h2>
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-name">حشو توت احمر الاحمدي 3 ك</div>
+                    <div class="product-price">1171ج</div>
+                </div>
+                <div class="product-card">
+                    <div class="product-name">حشو توت ازرق الاحمدي علبة 3 ك</div>
+                    <div class="product-price">970ج</div>
+                </div>
+                <div class="product-card">
+                    <div class="product-name">حشو كريز احمر الاحمدي</div>
+                    <div class="product-price">1150 ج</div>
+                </div>
+                <div class="product-card">
+                    <div class="product-name">حشو فراولة الاحمدي</div>
+                    <div class="product-price">910ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">حشو فراولة كوالتي1ك</div>
+                    <div class="product-price">215ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">توت احمر كوالتي 1 ك</div>
+                    <div class="product-price">285ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">حشو كريز كوالتي 1 ك</div>
+                    <div class="product-price">235ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">حشو مانجو كوالتي 1 ك</div>
+                    <div class="product-price">215ج</div>
+                </div>
+            </div>
+            <button class="show-more-btn" onclick="toggleProducts(this)">عرض المزيد</button>
+        </section>
+        
+        <section class="category">
+            <h2 class="category-title"> 🥛🐄 الحليب البودر</h2>
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-name">لبن فونتيرا نيوزلاندي</div>
+                    <div class="product-price">270ج</div>
+                </div>
+                <div class="product-card">
+                    <div class="product-name">لبن بولندي خالي الدسم</div>
+                    <div class="product-price">130ج</div>
+                </div>
+                <div class="product-card">
+                    <div class="product-name">لبن فرنساوي البقرة50%</div>
+                    <div class="product-price">165ج</div>
+                </div>
+                <div class="product-card">
+                    <div class="product-name">لبن فرنساوي البقرة26%</div>
+                    <div class="product-price">150ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">لبن فرنساوي ارمور 26%</div>
+                    <div class="product-price">150ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">لبن فرنساوي ارمور 50%</div>
+                    <div class="product-price">160ج</div>
+                </div>
+            </div>
+            <button class="show-more-btn" onclick="toggleProducts(this)">عرض المزيد</button>
+        </section>
+        
+        <section class="category">
+            <h2 class="category-title">☕ القهوة و المشروبات الساخنة</h2>
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-name">بن اخضر برزيلي حصي</div>
+                    <div class="product-price">350ج</div>
+                </div>
+                <div class="product-card">
+                    <div class="product-name">بن اخضر ناعم</div>
+                    <div class="product-price">440ج</div>
+                </div>
+                <div class="product-card">
+                    <div class="product-name">بن ساده غامق</div>
+                    <div class="product-price">600ج</div>
+                </div>
+                <div class="product-card">
+                    <div class="product-name">بن سادة وسط</div>
+                    <div class="product-price">500ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">بن محوج وسط</div>
+                    <div class="product-price">600ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">بن مخصوص وسط</div>
+                    <div class="product-price">700ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">سحلب محوج الكیلو</div>
+                    <div class="product-price">110ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">سحلب ساده الكیلو</div>
+                    <div class="product-price">90ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">كاكاو اسباني الكيلو</div>
+                    <div class="product-price">560ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">كاكاو ماليزي</div>
+                    <div class="product-price">175ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">كوفي مكس سایب</div>
+                    <div class="product-price">260ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">نسكافیه بلاك سايب</div>
+                    <div class="product-price">800ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">نسكافيه كلاسيك سايب</div>
+                    <div class="product-price">1000ج</div>
+                </div>
+            </div>
+            <button class="show-more-btn" onclick="toggleProducts(this)">عرض المزيد</button>
+        </section>
+        
+        <section class="category">
+            <h2 class="category-title">🥮 العجوة و الملبن</h2>
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-name">عجوه الامانه كرتونه 10 كيلو</div>
+                    <div class="product-price">360ج</div>
+                </div>
+                <div class="product-card">
+                    <div class="product-name">عجوه الامانه كرتونه 400 جرام</div>
+                    <div class="product-price">320ج</div>
+                </div>
+                <div class="product-card">
+                    <div class="product-name">عجوة الجبراوي كرتونة 10 ك</div>
+                    <div class="product-price">340ج</div>
+                </div>
+                <div class="product-card">
+                    <div class="product-name">عجوه الجبراوي كرتونه 5 كيلو</div>
+                    <div class="product-price">120ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">عجوه الجبراوي كرتونه 2.5 كيلو</div>
+                    <div class="product-price">60ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">عجوه 400 جرام قالب</div>
+                    <div class="product-price">20 ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">ملبن تاج الملوك كرتونه 5 كيلو</div>
+                    <div class="product-price">160ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">ملبن 1 كيلو</div>
+                    <div class="product-price">60ج</div>
+                </div>
+            </div>
+            <button class="show-more-btn" onclick="toggleProducts(this)">عرض المزيد</button>
+        </section>
+        
+        <section class="category">
+            <h2 class="category-title">🍨 الايس كريم</h2>
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-name">ايس فانيليا متحدة</div>
+                    <div class="product-price">140ج</div>
+                </div>
+                <div class="product-card">
+                    <div class="product-name">ايس فراوله متحدة</div>
+                    <div class="product-price">135ج</div>
+                </div>
+                <div class="product-card">
+                    <div class="product-name">ايس شيكولاتة متحدة</div>
+                    <div class="product-price">150ج</div>
+                </div>
+                <div class="product-card">
+                    <div class="product-name">ايس مانجو متحدة</div>
+                    <div class="product-price">135ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">مثبت ايس كريم</div>
+                    <div class="product-price">220ج</div>
+                </div>
+            </div>
+            <button class="show-more-btn" onclick="toggleProducts(this)">عرض المزيد</button>
+        </section>
+        
+        <section class="category">
+            <h2 class="category-title">🌿 البهارات</h2>
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-name">كمون حصى بلدي</div>
+                    <div class="product-price">240ج</div>
+                </div>
+                <div class="product-card">
+                    <div class="product-name">كمون ناعم</div>
+                    <div class="product-price">280ج</div>
+                </div>
+                <div class="product-card">
+                    <div class="product-name">فلفل أسمر ناعم</div>
+                    <div class="product-price">450ج</div>
+                </div>
+                <div class="product-card">
+                    <div class="product-name">فلفل أسمر حصى</div>
+                    <div class="product-price">410ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">السبع بهارات</div>
+                    <div class="product-price">250ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">كزبرة نص دشة</div>
+                    <div class="product-price">80ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">كزبرة ناعمة</div>
+                    <div class="product-price">80ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">كزبرة حصى</div>
+                    <div class="product-price">80ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">بصل بودر</div>
+                    <div class="product-price">80ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">ثوم بودر</div>
+                    <div class="product-price">80ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">شطة قرون</div>
+                    <div class="product-price">180ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">شطة نمرا 1</div>
+                    <div class="product-price">120ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">كركم ناعم</div>
+                    <div class="product-price">150ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">حبة البركة</div>
+                    <div class="product-price">150ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">ورق لوري</div>
+                    <div class="product-price">200ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">بردقوش</div>
+                    <div class="product-price">100ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">بلح جوز الطيب ناعم</div>
+                    <div class="product-price">800ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">بلح جوز الطيب</div>
+                    <div class="product-price">700ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">فول صويا</div>
+                    <div class="product-price">70ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">قرفة سيجار</div>
+                    <div class="product-price">300ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">شمر</div>
+                    <div class="product-price">110ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">كراوية</div>
+                    <div class="product-price">200ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">حبهان</div>
+                    <div class="product-price">1800ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">حبهان ناعم</div>
+                    <div class="product-price">2000ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">كاري</div>
+                    <div class="product-price">250ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">لبان دكر</div>
+                    <div class="product-price">700ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">ملح صيني</div>
+                    <div class="product-price">90ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">محلب حصي</div>
+                    <div class="product-price">160ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">جنزبيل</div>
+                    <div class="product-price">260ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">قرفة ناعمة</div>
+                    <div class="product-price">160ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">ينسون</div>
+                    <div class="product-price">140ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">ينسون نجمة</div>
+                    <div class="product-price">670ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">قرنفل</div>
+                    <div class="product-price">600ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">فلفل بابريكا اسباني</div>
+                    <div class="product-price">160ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">بابريكا مدخنه اسباني</div>
+                    <div class="product-price">200ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">حلبه حصى</div>
+                    <div class="product-price">65ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">حلبه ناعمة</div>
+                    <div class="product-price">100ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">مغات</div>
+                    <div class="product-price">240ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">ذرة فشار</div>
+                    <div class="product-price">40ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">سمغ عربي</div>
+                    <div class="product-price">280ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">كبابة ناعمة</div>
+                    <div class="product-price">750ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">كبابة صيني</div>
+                    <div class="product-price">700ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">فجيتار حار + بارد</div>
+                    <div class="product-price">30ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">سماء خشن</div>
+                    <div class="product-price">600ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">سماء ناعم</div>
+                    <div class="product-price">640ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">مرمرية</div>
+                    <div class="product-price">100ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">ورق جوافة</div>
+                    <div class="product-price">60ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">زعتر بلدي</div>
+                    <div class="product-price">170ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">زعتر تركي</div>
+                    <div class="product-price">170ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">شيح بلدي</div>
+                    <div class="product-price">80ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">زهره بابونج</div>
+                    <div class="product-price">220ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">فنكوش ألوان</div>
+                    <div class="product-price">40ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">جنين قمح</div>
+                    <div class="product-price">85ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">نعناع ناشف</div>
+                    <div class="product-price">100ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">ليمون ناشف</div>
+                    <div class="product-price">55ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">ورق صدر</div>
+                    <div class="product-price">120ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">روز ماري</div>
+                    <div class="product-price">100ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">بذور شيا</div>
+                    <div class="product-price">280ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">بزر قاطونه</div>
+                    <div class="product-price">320ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">سلمكا</div>
+                    <div class="product-price">100ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">زر ورد</div>
+                    <div class="product-price">200ج</div>
+                </div>
+            </div>
+            <button class="show-more-btn" onclick="toggleProducts(this)">عرض المزيد</button>
+        </section>
+        
+        <section class="category">
+            <h2 class="category-title">🌾 البقوليات</h2>
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-name">فول مدشوش</div>
+                    <div class="product-price">40ج</div>
+                </div>
+                <div class="product-card">
+                    <div class="product-name">فول تدميس بلدي</div>
+                    <div class="product-price">60ج</div>
+                </div>
+                <div class="product-card">
+                    <div class="product-name">قمح بليلة</div>
+                    <div class="product-price">25ج</div>
+                </div>
+                <div class="product-card">
+                    <div class="product-name">أرز بسمتي نزيه</div>
+                    <div class="product-price">65ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">ارز بسمتي الهدى</div>
+                    <div class="product-price">50ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">برغل</div>
+                    <div class="product-price">30ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">فريك نمره 1</div>
+                    <div class="product-price">70ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">شعير</div>
+                    <div class="product-price">30ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">ترمس مستورد</div>
+                    <div class="product-price">45ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">عصفر</div>
+                    <div class="product-price">100ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">عصفر نمر ١</div>
+                    <div class="product-price">400ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">مكرونة بأنواعها سايبه</div>
+                    <div class="product-price">25ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">شعرية</div>
+                    <div class="product-price">25ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">حمص الشام كبير</div>
+                    <div class="product-price">110ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">حمص الشام صغير</div>
+                    <div class="product-price">70ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">فاصوليا بيضاء</div>
+                    <div class="product-price">75ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">فاصوليا حمراء</div>
+                    <div class="product-price">100ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">عدس أصفر</div>
+                    <div class="product-price">60ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">عدس بجبه</div>
+                    <div class="product-price">50ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">لوبيا بلدي</div>
+                    <div class="product-price">90ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">ارز ابيض عريض</div>
+                    <div class="product-price">33ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">ارز ابيض سايب رفيع</div>
+                    <div class="product-price">30ج</div>
+                </div>
+            </div>
+            <button class="show-more-btn" onclick="toggleProducts(this)">عرض المزيد</button>
+        </section>
+        
+        <section class="category">
+            <h2 class="category-title">🍵 الشاي </h2>
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-name">شاي استكانة علبة ربع كيلو</div>
+                    <div class="product-price">40ج</div>
+                </div>
+                <div class="product-card">
+                    <div class="product-name">شاي العروسة ربع</div>
+                    <div class="product-price">55ج</div>
+                </div>
+                <div class="product-card">
+                    <div class="product-name">شاي ليبتون ربع</div>
+                    <div class="product-price">60ج</div>
+                </div>
+                <div class="product-card">
+                    <div class="product-name">شاي ليبتون علبة ١٠٠ فتلة</div>
+                    <div class="product-price">120ج</div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="category">
+            <h2 class="category-title"> الزيوت الطبيعية</h2>
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-name">زيت جرجير طبيعي</div>
+                    <div class="product-price">435ج</div>
+                </div>
+                <div class="product-card">
+                    <div class="product-name">زيت جنزبيل طبيعي</div>
+                    <div class="product-price">530ج</div>
+                </div>
+                <div class="product-card">
+                    <div class="product-name">زيت جنين القمح طبيعي</div>
+                    <div class="product-price">460ج</div>
+                </div>
+                <div class="product-card">
+                    <div class="product-name">زيت جوجوبا</div>
+                    <div class="product-price">505ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">زيت جوز هند صناعي</div>
+                    <div class="product-price">220ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">زيت جوز هند طبيعي</div>
+                    <div class="product-price">305ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">زيت حبة البركه طبيعي</div>
+                    <div class="product-price">700ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">زيت حلبة طبيعي</div>
+                    <div class="product-price">460ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">زيت حنظل طبيعي</div>
+                    <div class="product-price">480ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">زيت خردل طبيعي</div>
+                    <div class="product-price">380ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">زيت خروع طبيعي</div>
+                    <div class="product-price">270ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">زيت روزماري طبيعي</div>
+                    <div class="product-price">460ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">زيت ريحان طبيعي</div>
+                    <div class="product-price">450ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">زيت زيتون بكر</div>
+                    <div class="product-price">600ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">زيت سمسم طبيعي</div>
+                    <div class="product-price">420ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">زيت شمر طبيعي</div>
+                    <div class="product-price">490ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">زيت صبار صناعي</div>
+                    <div class="product-price">220ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">زيت عنب طبيعي</div>
+                    <div class="product-price">550ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">زيت قرع عسل طبيعي</div>
+                    <div class="product-price">600ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">زيت قرنفل طبيعي</div>
+                    <div class="product-price">810ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">زيت قرفه طبيعي</div>
+                    <div class="product-price">1000ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">زيت كافور صناعي</div>
+                    <div class="product-price">330ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">زيت لافندر صناعي</div>
+                    <div class="product-price">280ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">زيت ليمون صناعي</div>
+                    <div class="product-price">250ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">زيت نخاع صناعي</div>
+                    <div class="product-price">290ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">زيت نعناع مركز طبيعي</div>
+                    <div class="product-price">700ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">زيت ورد صناعي</div>
+                    <div class="product-price">250ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">زيت اللوز الطبيعي ( الحلو)</div>
+                    <div class="product-price">820ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">زيت اللوز الحلو الصناعي</div>
+                    <div class="product-price">220ج</div>
+                </div>
+                <div class="product-card hidden-product">
+                    <div class="product-name">زيت اللوز المر الطبيعي</div>
+                    <div class="product-price">250ج</div>
+                </div>
+            <div class="product-card hidden-product">
+<div class="product-name">زيت الياسمين الصناعي</div>
+<div class="product-price">270ج</div>
+</div>
+<div class="product-card hidden-product">
+<div class="product-name">زيت نويت بابونج</div>
+<div class="product-price">460ج</div>
+</div>
+<div class="product-card hidden-product">
+<div class="product-name">زيت بزر الكتان ( حار)</div>
+<div class="product-price">165ج</div>
+</div>
+    </div>
+            <button class="show-more-btn" onclick="toggleProducts(this)">عرض المزيد</button>
+        </section>
+
+        <section class="category">
+            <h2 class="category-title">🍫 منتجات كوالتي</h2>
+            <div class="products-grid">
+                <div class="product-card">
+<div class="product-name">شيكولاته بني كوالتي قالب 2.5 كيلو</div>
+<div class="product-price">235 ج</div>
+</div>
+<div class="product-card">
+<div class="product-name">شيكولاته ابيض كوالتي قالب 2.5 كيلو</div>
+<div class="product-price">245 ج</div>
+</div>
+<div class="product-card">
+<div class="product-name">شيكولاته دارك كوالتي قالب 2.5 كيلو</div>
+<div class="product-price">345 ج</div>
+</div>
+<div class="product-card">
+<div class="product-name">شيكولاته حليب كوالتي قالب 2.5 كيلو</div>
+<div class="product-price">350 ج</div>
+</div>
+<div class="product-card" style="display: none;">
+<div class="product-name">شيكولاته دروبس بني كوالتي 1 كيلو</div>
+<div class="product-price">115 ج</div>
+</div>
+<div class="product-card" style="display: none;">
+<div class="product-name">شيكولاته دروبس حليب كوالتي 1 كيلو</div>
+<div class="product-price">148 ج</div>
+</div>
+<div class="product-card" style="display: none;">
+<div class="product-name">شيكولاته دروبس دارك كوالتي 1 كيلو</div>
+<div class="product-price">145 ج</div>
+</div>
+<div class="product-card" style="display: none;">
+<div class="product-name">كريمة كوالتي ستار 500 جرام</div>
+<div class="product-price">120 ج</div>
+</div>
+<div class="product-card" style="display: none;">
+<div class="product-name">كريمة كوالتي سوبر ستار 500 جرام</div>
+<div class="product-price">155 ج</div>
+</div>
+<div class="product-card" style="display: none;">
+<div class="product-name">كريمة خام هاي كوالتي 1 كيلو</div>
+<div class="product-price">255 ج</div>
+</div>
+<div class="product-card" style="display: none;">
+<div class="product-name">باستري كوالتي 500 جرام</div>
+<div class="product-price">80 ج</div>
+</div>
+<div class="product-card" style="display: none;">
+<div class="product-name">سكر بودرة كوالتي 500 جرام</div>
+<div class="product-price">25 ج</div>
+</div>
+<div class="product-card" style="display: none;">
+<div class="product-name">موس فانيليا كوالتي 500 جرام</div>
+<div class="product-price">90 ج</div>
+</div>
+<div class="product-card" style="display: none;">
+<div class="product-name">موس شيكولاته كوالتي 500 جرام</div>
+<div class="product-price">100 ج</div>
+</div>
+<div class="product-card" style="display: none;">
+<div class="product-name">اسبونج فانيليا كوالتي 500 جرام</div>
+<div class="product-price">37 ج</div>
+</div>
+<div class="product-card" style="display: none;">
+<div class="product-name">اسبونج شيكولاتة كوالتي 500 جرام</div>
+<div class="product-price">42 ج</div>
+</div>
+<div class="product-card" style="display: none;">
+<div class="product-name">مافن فانيليا كوالتي 500 جرام</div>
+<div class="product-price">40 ج</div>
+</div>
+<div class="product-card" style="display: none;">
+<div class="product-name">مافن شيكولاتة كوالتي 500 جرام</div>
+<div class="product-price">45 ج</div>
+</div>
+<div class="product-card" style="display: none;">
+<div class="product-name">براونيز كيك كوالتي 500 جرام</div>
+<div class="product-price">50 ج</div>
+</div>
+<div class="product-card" style="display: none;">
+<div class="product-name">فادج كيك كوالتي 500 جرام</div>
+<div class="product-price">50 ج</div>
+</div>
+<div class="product-card" style="display: none;">
+<div class="product-name">تراميسو كيك كوالتي 500 جرام</div>
+<div class="product-price">100 ج</div>
+</div>
+<div class="product-card" style="display: none;">
+<div class="product-name">تري ليتشي كوالتي 500 جرام</div>
+<div class="product-price">40 ج</div>
+</div>
+<div class="product-card" style="display: none;">
+<div class="product-name">انجليش كيك فانيليا كوالتي 500 جرام</div>
+<div class="product-price">40 ج</div>
+</div>
+<div class="product-card" style="display: none;">
+<div class="product-name">انجليش كيك شيكولاتة 500 جرام</div>
+<div class="product-price">45 ج</div>
+</div>
+<div class="product-card" style="display: none;">
+<div class="product-name">ريد فيلفت كوالتي 500 جرام</div>
+<div class="product-price">55 ج</div>
+</div>
+<div class="product-card" style="display: none;">
+<div class="product-name">بيكنج بودر كوالتي 500 جرام</div>
+<div class="product-price">77 ج</div>
+</div>
+<div class="product-card" style="display: none;">
+<div class="product-name">ايس فانيليا كوالتي 500 جرام</div>
+<div class="product-price">65 ج</div>
+</div>
+<div class="product-card" style="display: none;">
+<div class="product-name">ايس شيكولاتة كوالتي 500 جرام</div>
+<div class="product-price">75 ج</div>
+</div>
+<div class="product-card" style="display: none;">
+<div class="product-name">ايس فراولة كوالتي 500 جرام</div>
+<div class="product-price">65 ج</div>
+</div>
+<div class="product-card" style="display: none;">
+<div class="product-name">ايس مانجو كوالتي 500 جرام</div>
+<div class="product-price">65 ج</div>
+</div>
+<div class="product-card" style="display: none;">
+<div class="product-name">كريمة بندق كوالتي 1 كيلو</div>
+<div class="product-price">140ج</div>
+</div>
+<div class="product-card" style="display: none;">
+<div class="product-name">كريمة سبريد ابيض كوالتي 1 كيلو</div>
+<div class="product-price">145 ج</div>
+</div>
+<div class="product-card" style="display: none;">
+<div class="product-name">كريمة بندق شامبيون كوالتي 1 كيلو</div>
+<div class="product-price">115 ج</div>
+</div>
+<div class="product-card" style="display: none;">
+<div class="product-name">كريمة فسدق كوالتي 1 كيلو</div>
+<div class="product-price">465 ج</div>
+</div>
+<div class="product-card" style="display: none;">
+<div class="product-name">كريمة كيندر (حليب بالبندق ) 1 كيلو</div>
+<div class="product-price">160ج</div>
+</div>
+<div class="product-card" style="display: none;">
+<div class="product-name">كريمة فسدق كوالتي 400 جرام</div>
+<div class="product-price">215 ج</div>
+</div>
+<div class="product-card" style="display: none;">
+<div class="product-name">كريمة شيكولاتة كوالتي 400 جرام</div>
+<div class="product-price">65ج</div>
+</div>
+<div class="product-card" style="display: none;">
+<div class="product-name">كريمة شيكولاتة شامبيون كوالتي 400 جرام</div>
+<div class="product-price">45ج</div>
+</div>
+<div class="product-card" style="display: none;">
+<div class="product-name">كريمة شيكولاتة بيضاء كوالتي 400 جرام</div>
+<div class="product-price">65ج</div>
+</div>
+<div class="product-card" style="display: none;">
+<div class="product-name">كريمة شيكولاتة كيندر كوالتي 400 جرام</div>
+<div class="product-price">70ج</div>
+</div>
+<div class="product-card" style="display: none;">
+<div class="product-name">كريمة فسدق كوالتي جركن 5ك</div>
+<div class="product-price">2050ج</div>
+</div>
+<div class="product-card" style="display: none;">
+<div class="product-name">كريمة شكولاتة بيضاء كوالتي جركن 5ك</div>
+<div class="product-price">595ج</div>
+</div>
+<div class="product-card" style="display: none;">
+<div class="product-name">كريمة شيكولاتة حليب بالبدق كوالتي 5ك</div>
+<div class="product-price">670ج</div>
+</div>
+<div class="product-card" style="display: none;">
+<div class="product-name">كريمة شيكولاتة بندق كواتي جركن 5ك</div>
+<div class="product-price">640ج</div>
+</div>
+<div class="product-card" style="display: none;">
+<div class="product-name">كريمة شيكولاتة بندق شامبيون جركن 5ك</div>
+<div class="product-price">465ج</div>
+</div>
+<div class="product-card" style="display: none;">
+<div class="product-name">حشو عنب ازرق كوالتي 1 كيلو</div>
+<div class="product-price">275 ج</div>
+</div>
+<div class="product-card" style="display: none;">
+<div class="product-name">حشو عنب ازرق كوالتي 400 جرام</div>
+<div class="product-price">135 ج</div>
+</div>
+<div class="product-card" style="display: none;">
+<div class="product-name">حشو كريز احمر كوالتي 1 كيلو</div>
+<div class="product-price">240 ج</div>
+</div>
+<div class="product-card" style="display: none;">
+<div class="product-name">حشو كريز احمر كوالتي 400 جرام</div>
+<div class="product-price">115 ج</div>
+</div>
+<div class="product-card" style="display: none;">
+<div class="product-name">حشو مانجو كوالتي 1 كيلو</div>
+<div class="product-price">220 ج</div>
+</div>
+<div class="product-card" style="display: none;">
+<div class="product-name">حشو مانجو كوالتي 400 جرام</div>
+<div class="product-price">115 ج</div>
+</div>
+<div class="product-card" style="display: none;">
+<div class="product-name">حشو توت احمر كوالتي 1 كيلو</div>
+<div class="product-price">290 ج</div>
+</div>
+<div class="product-card" style="display: none;">
+<div class="product-name">حشو توت احمر كوالتي 400 جرام</div>
+<div class="product-price">135 ج</div>
+</div>
+<div class="product-card" style="display: none;">
+<div class="product-name">حشو فراولة كوالتي 1 كيلو</div>
+<div class="product-price">215 ج</div>
+</div>
+<div class="product-card" style="display: none;">
+<div class="product-name">حشو كيوي كوالتي 1 كيلو</div>
+<div class="product-price">225 ج</div>
+</div>
+<div class="product-card" style="display: none;">
+<div class="product-name">مربي حليب كوالتي 1 كيلو</div>
+<div class="product-price">130 ج</div>
+</div>
+<div class="product-card" style="display: none;">
+<div class="product-name">مربي حليب كوالتي 400 جرام</div>
+<div class="product-price">55 ج</div>
+</div>
+<div class="product-card" style="display: none;">
+<div class="product-name">مربي مشمش كوالتي 1 كيلو</div>
+<div class="product-price">55 ج</div>
+</div>
+<div class="product-card" style="display: none;">
+<div class="product-name">مربي مشمش كوالتي 400 جرام</div>
+<div class="product-price">25 ج</div>
+</div>
+<div class="product-card" style="display: none;">
+<div class="product-name">مربي فراولة كوالتي 1 كيلو</div>
+<div class="product-price">58 ج</div>
+</div>
+<div class="product-card" style="display: none;">
+<div class="product-name">جيناش كوالتي 400 جرام</div>
+<div class="product-price">45 ج</div>
+</div>
+<div class="product-card" style="display: none;">
+<div class="product-name">جيلي شفاف كوالتي علبه400جم</div>
+<div class="product-price">25ج</div>
+</div>
+<div class="product-card" style="display: none;">
+<div class="product-name">جيلي فراولة كوالتي علبه 400جم</div>
+<div class="product-price">25ج</div>
+</div>
+<div class="product-card" style="display: none;">
+<div class="product-name">جيلي مانجو كوالتي علبه 400جم</div>
+<div class="product-price">28ج</div>
+</div>
+<div class="product-card" style="display: none;">
+<div class="product-name">جيلي شيكولاته كوالتي علبه 400جم</div>
+<div class="product-price">30ج</div>
+</div>
+<div class="product-card" style="display: none;">
+<div class="product-name">جيلي كراميل كوالتي علبه 400جم</div>
+<div class="product-price">25ج</div>
+</div>
+</div>
+            <div class="show-less-more-products">
+                <button class="show-more-btn">عرض المزيد</button>
+                <button class="show-less-btn" style="display: none;">عرض الأقل</button>
+            </div>
+        </section>
+
+        <section class="category">
+            <h2 class="category-title">🍫 الشيكولاتة القوالب</h2>
+            <div class="products-grid">
+<div class="product-card">
+<div class="product-name">شيكولاتة كوفرتورة سما بني قالب 2.5ك</div>
+<div class="product-price">350 ج</div>
+</div>
+<div class="product-card">
+<div class="product-name">شيكولاتة كوفرتورة سما ابيض قالب 2.5ك</div>
+<div class="product-price">365 ج</div>
+</div>
+<div class="product-card">
+<div class="product-name">شيكولاتة كوفرتورة سما دارك قالب 2.5ك</div>
+<div class="product-price">355 ج</div>
+</div>
+<div class="product-card">
+<div class="product-name">شيكولاتة كوفرتورة سما باللبن قالب 2.5ك</div>
+<div class="product-price">357 ج</div>
+</div>
+<div class="product-card" style="display: none;">
+<div class="product-name">شيكولاتة كوفرتورة سما كراميل 1/2 طبيعي باللبن قالب 2.5ك</div>
+<div class="product-price">560 ج</div>
+</div>
+<div class="product-card" style="display: none;">
+<div class="product-name">شيكولاتة جني بني قالب 2.5ك</div>
+<div class="product-price">235 ج</div>
+</div>
+<div class="product-card" style="display: none;">
+<div class="product-name">شيكولاتة جني ابيض قالب 2.5ك</div>
+<div class="product-price">240 ج</div>
+</div>
+<div class="product-card" style="display: none;">
+<div class="product-name">شيكولاتة فينا بني قالب 2.5ك</div>
+<div class="product-price">280 ج</div>
+</div>
+<div class="product-card" style="display: none;">
+<div class="product-name">شيكولاتة فينا ابيض قالب 2.5ك</div>
+<div class="product-price">290 ج</div>
+</div>
+<div class="product-card" style="display: none;">
+<div class="product-name">شيكولاتة سما مطبخ بني قالب 200جم</div>
+<div class="product-price">35 ج</div>
+</div>
+<div class="product-card" style="display: none;">
+<div class="product-name">شيكولاتة سما مطبخ ابيض قالب 200جم</div>
+<div class="product-price">35 ج</div>
+</div>
+<div class="product-card" style="display: none;">
+<div class="product-name">شيكولاتة سما مطبخ باللبن قالب 200جم</div>
+<div class="product-price">35 ج</div>
+</div>
+            </div>
+            <div class="show-less-more-products">
+                <button class="show-more-btn">عرض المزيد</button>
+                <button class="show-less-btn" style="display: none;">عرض الأقل</button>
+            </div>
+        </section>
+        <section class="category">
+            <h2 class="category-title">🍫 الاسبريدات</h2>
+            <div class="products-grid">
+<div class="product-card">
+<div class="product-name">شيكولاتة سما كريم بني علبة 1ك</div>
+<div class="product-price">140 ج</div>
+</div>
+<div class="product-card">
+<div class="product-name">شيكولاتة سما كريم ابيض علبة 1ك</div>
+<div class="product-price">145 ج</div>
+</div>
+<div class="product-card">
+<div class="product-name">شيكولاتة سما كريم فسدق علبة 1ك</div>
+<div class="product-price">435 ج</div>
+</div>
+<div class="product-card">
+<div class="product-name">سبريد كيندر بوينو سما علبة 1ك</div>
+<div class="product-price">180 ج</div>
+</div>
+<div class="product-card" style="display: none;">
+<div class="product-name">سبريد روشيه سما علبة 1ك</div>
+<div class="product-price">180 ج</div>
+</div>
+<div class="product-card" style="display: none;">
+<div class="product-name">سبريد رافيلو سما علبة 1ك</div>
+<div class="product-price">180 ج</div>
+</div>
+<div class="product-card" style="display: none;">
+<div class="product-name">سبريد لوتس سما علبة 1ك</div>
+<div class="product-price">110 ج</div>
+</div>
+            </div>
+            <div class="show-less-more-products">
+                <button class="show-more-btn">عرض المزيد</button>
+                <button class="show-less-btn" style="display: none;">عرض الأقل</button>
+            </div>
+        </section>
+
+        <section id="about" class="about-section">
+            <h2 class="about-title">📜 عن البراند</h2>
+            <div class="about-content">
+                <p><strong>نزيه العطار</strong> - رائدة في مجال المكسرات والحلويات منذ عام 1929.</p>
+                <p>نحن نقدم أجود أنواع المكسرات وخامات الحلواني والياميش بأفضل الأسعار، مع الالتزام بمعايير الجودة العالمية.</p>
+                <p>رؤيتنا: أن نكون الخيار الأول للعملاء الباحثين عن الجودة والتميز.</p>
+            </div>
+        </section>
+        
+        <section id="contact" class="contact-section">
+            <h2 class="contact-title">📞 اتصل بنا</h2>
+            <p>نحن هنا لخدمتك! تواصل معنا عبر أي من الوسائل التالية:</p>
+            
+            <div class="contact-buttons">
+                <a href="tel:+201227201188" class="contact-btn">📞 اتصل هاتفياً</a>
+                <a href="https://wa.me/201227201188" class="contact-btn" target="_blank">💬 واتساب</a>
+                <a href="https://www.facebook.com/NAZEH.ElATAR/reviews" class="contact-btn">✉️ فيس بوك</a>
+                <a href="https://maps.app.goo.gl/iHJSC2yCy13TEhPT9" class="contact-btn" target="_blank">📍 الموقع</a>
+            </div>
+            
+            <div style="margin-top: 20px;">
+                <p>أوقات العمل: يوميًا من 9 صباحًا إلى 10 مساءً</p>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <p>© 2024 نزيه العطار. جميع الحقوق محفوظة.</p>
+        </footer>
+    </div>
+</body>
+</html>
