@@ -145,7 +145,7 @@
         }
         
         .product-price {
-            font-size: 1.1rem;
+            font-size: 35px;
             color: #ff6b35;
             font-weight: bold;
         }
@@ -262,4 +262,5 @@
             .products-grid {
                 grid-template-columns: 1fr;
             }
+
         }
